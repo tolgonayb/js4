@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: url("image/background.png");
+
+}
+
+.todolist-ul {
+    list-style: none;
+}
+
+.todolist-ul li {
+    display: flex;
+    border: 1px solid black;
+    margin: 10px 5px;
+    padding: 10px;
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.todolist-ul li.completed {
+    transform: scale(0.92);
+    opacity: 80%;
+}
+
+.todolist-ul li.completed span {
+    text-decoration: line-through;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button.danger {
+    color: #550e0e;
+    background-color: #e74f4f;
+    cursor: pointer;
+}
+
+button.success {
+    color: #104e15;
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+ul {list-style-type: none;}
+body {font: 20px monospace, sans-serif;}
+
+
+.month {
+    margin: auto;
+    text-align: center;
+}
+
+.month h1 {
+    margin: 10px;
+    font: 30px monospace, sans-serif;
+}
+
+.calendar table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.calendar tr {
+    padding: 3px;
+    border: 1px solid black;
+}
+
+.calendar table td {
+    border: 1px solid black;
+    font: 10px monospace, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.btn {
+    display: inline-block;
+    color: #000000;
+    padding: 12px;
+    border-radius: 3px;
+    line-height: 1px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.tasks {
+    position: absolute;
+    margin-top: 200px;
+}

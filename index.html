@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, ">
+    <title>Title</title>
+    <link rel="stylesheet"  href="style.css" />
+</head>
+<body>
+<div class="app">
+    <h1 id="title">To Do List</h1>
+    <div class="inputs">
+        <input type="text" id="todoTextInput" placeholder="Type here..."/>
+        <button class="success" id="addTodoBtn">Add</button>
+        <select name="todoFilter" id="todoFilter">
+            <option value="all" selected>All</option>
+            <option value="completed">Completed</option>
+            <option value="uncompleted">Uncompleted</option>
+        </select>
+    </div>
+    <div class="todolist">
+        <ul class="todolist-ul" id="todolist-ul"></ul>
+    </div>
+</div>
+<div class="month">
+    <h1> Choose your month: </h1>
+    <div class = "calendar">
+        <div id="tasks" >
+    <table>
+        <tr>
+
+            <td> <input class="btn" value='Jan' type="button"></td>
+            <td> <input class="btn" value='Feb' type="button"></td>
+            <td> <input class="btn" value='Mar' type="button"></td>
+            <td> <input class="btn" value='Apr' type="button"></td>
+            <td> <input class="btn" value='May' type="button"></td>
+            <td> <input class="btn" value='Jun' type="button"></td>
+            <td> <input class="btn" value='Jul' type="button"></td>
+            <td> <input class="btn" value='Aug' type="button"></td>
+            <td> <input class="btn" value='Sep' type="button"></td>
+            <td> <input class="btn" value='Oct' type="button"></td>
+            <td> <input class="btn" value='Nov' type="button"></td>
+            <td> <input class="btn" value='Dec' type="button"></td>
+    </tr>
+    </table>
+</div>
+</div>
+
+</div>
+<div class="tasks">
+    
+</div>
+
+
+<script src="index.js"></script>
+
+
+</body>
+</html>
